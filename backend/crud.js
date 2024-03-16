@@ -1,3 +1,5 @@
+// this is just practise file to check the database operations
+
 const { MongoClient } = require('mongodb');
 
 async function main() {
