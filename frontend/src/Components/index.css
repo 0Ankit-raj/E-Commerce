@@ -1,0 +1,27 @@
+/* Opacity Effect */
+.hover11 img {
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+  }
+  
+  .hover11:hover img {
+    opacity: 0.2;
+  }
+  
+  /* Text Overlay */
+  .hover11 figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 100;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hover11:hover figcaption {
+    opacity: 1;
+  }
+  
