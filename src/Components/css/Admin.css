@@ -1,0 +1,24 @@
+.orders-list-container {
+    text-align: center; /* Center align the container */
+    margin: 20px auto;
+  }
+  h1{
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  .orders-table {
+    width: 80%; /* Set table width */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Collapse table borders */
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 8px; /* Add padding to table cells */
+    border: 1px solid #ddd; /* Add border to table cells */
+  }
+  
+  .orders-table th {
+    background-color: #f2f2f2; /* Add background color to table header */
+  }
+  
